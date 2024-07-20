@@ -7,60 +7,66 @@
         <link rel="stylesheet" href="./style/styles.module.css">
     </head>
     <body>
-        <header class="header-background">
-            <div class="container">
-                <div class="profile-photo">
-                    <img src="./img/637136063.jpeg" alt="Ваше фото">
+        <div id="spinner" class="spinner-overlay">
+            <div class="spinner"></div>
+        </div>
+        <div id="content" class="content-hidden">
+            <header class="header-background">
+                <div class="container">
+                    <div class="profile-photo">
+                        <img src="./img/637136063.jpeg" alt="Ваше фото">
+                    </div>
+                    <h1>Виталий</h1>
+                    <p>Фронтенд разработчик</p>
+                    <div class="buttons">
+                        <a href="https://t.me/VitalyStab" class="button">
+                            <img src="./img/telegram-svgrepo-com.svg" alt="">
+                        </a>
+                        <a href="https://github.com/VitaliyKova?tab=repositories" class="button">
+                            <img src="./img/github-svgrepo-com.svg" alt="">
+                        </a>
+                    </div>
                 </div>
-                <h1>Виталий</h1>
-                <p>Фронтенд разработчик</p>
-                <div class="buttons">
-                    <a href="https://t.me/VitalyStab" class="button">
-                        <img src="./img/telegram-svgrepo-com.svg" alt="">
-                    </a>
-                    <a href="https://github.com/VitaliyKova?tab=repositories" class="button">
-                        <img src="./img/github-svgrepo-com.svg" alt="">
-                    </a>
+            </header>
+            <section class="about">
+                <div class="container">
+                    <h2>О себе</h2>
+                    <div class="description">
+                        Привет!
+                        <p>Я — фронтенд разработчик, специализирующийся на React.</p>
+                        <p>Мое призвание — создавать интерактивные и интуитивно понятные веб-приложения, которые не только красивы визуально, но и легко взаимодействуют с пользователем.</p>
+                        <p>Мой опыт включает разработку масштабируемых и производительных приложений с использованием современных инструментов и технологий React. Я также активно использую Node.js для создания серверной части приложений и взаимодействия с базами данных, что позволяет мне создавать полноценные веб-приложения, обеспечивая их высокую производительность и масштабируемость.</p>
+                        <p>Я стараюсь следовать лучшим практикам в области фронтенд-разработки, всегда стремясь к оптимальному пользовательскому опыту и чистому коду.</p>
+                        <p>Кроме того, я увлечен обучением новым технологиям и постоянно совершенствую свои навыки, чтобы быть в курсе последних тенденций в веб-разработке. В свободное время я люблю экспериментировать с новыми идеями и делиться своим опытом в сообществе разработчиков.</p>
+                        <p>Если вам нужен профессионал, который превратит вашу идею в реальность с помощью React и Node.js, не стесняйтесь связаться со мной. Давайте сделаем веб-мир лучше вместе!</p>
+                    </div>
                 </div>
-            </div>
-        </header>
-        <section class="about">
-            <div class="container">
-                <h2>О себе</h2>
-                <div class="description">
-                    Привет!
-                    <p>Я — фронтенд разработчик, специализирующийся на React.</p>
-                    <p>Мое призвание — создавать интерактивные и интуитивно понятные веб-приложения, которые не только красивы визуально, но и легко взаимодействуют с пользователем.</p>
-                    <p>Мой опыт включает разработку масштабируемых и производительных приложений с использованием современных инструментов и технологий React. Я также активно использую Node.js для создания серверной части приложений и взаимодействия с базами данных, что позволяет мне создавать полноценные веб-приложения, обеспечивая их высокую производительность и масштабируемость.</p>
-                    <p>Я стараюсь следовать лучшим практикам в области фронтенд-разработки, всегда стремясь к оптимальному пользовательскому опыту и чистому коду.</p>
-                    <p>Кроме того, я увлечен обучением новым технологиям и постоянно совершенствую свои навыки, чтобы быть в курсе последних тенденций в веб-разработке. В свободное время я люблю экспериментировать с новыми идеями и делиться своим опытом в сообществе разработчиков.</p>
-                    <p>Если вам нужен профессионал, который превратит вашу идею в реальность с помощью React и Node.js, не стесняйтесь связаться со мной. Давайте сделаем веб-мир лучше вместе!</p>
+            </section>
+            <section class="skills">
+                <div class="container">
+                    <h2>Навыки</h2>
+                    <ul>
+                        <li>HTML5 / CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>Redux</li>
+                        <li>Webpack</li>
+                        <li>Babel</li>
+                        <li>Sass</li>
+                        <li>Bootstrap</li>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>MongoDB</li>
+                        <li>Анимации и интерактивные элементы</li>
+                    </ul>
                 </div>
-            </div>
-        </section>
-        <section class="skills">
-            <div class="container">
-                <h2>Навыки</h2>
-                <ul>
-                    <li>HTML5 / CSS3</li>
-                    <li>JavaScript (ES6+)</li>
-                    <li>React.js</li>
-                    <li>Redux</li>
-                    <li>Webpack</li>
-                    <li>Babel</li>
-                    <li>Sass</li>
-                    <li>Bootstrap</li>
-                    <li>Node.js</li>
-                    <li>Express</li>
-                    <li>MongoDB</li>
-                    <li>Анимации и интерактивные элементы</li>
-                </ul>
-            </div>
-        </section>
-        <footer>
-            <div class="container">
-                <p>&copy; 2024 Виталий. Все права защищены.</p>
-            </div>
-        </footer>
+            </section>
+            <footer>
+                <div class="container">
+                    <p>&copy; 2024 Виталий. Все права защищены.</p>
+                </div>
+            </footer>
+        </div>
+        <script src="./script.js"></script>
     </body>
 </html>
