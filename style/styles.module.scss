@@ -23,7 +23,7 @@ body {
 
 // /* Шапка с фоном */
 .header-background {
-  background: url("../img/header.jpg") no-repeat center center/cover;
+  background-color: rgb(42, 42, 42);
   color: #fff;
   text-align: center;
   padding: 100px 0;
@@ -82,6 +82,38 @@ body {
   animation: fadeIn 1s ease-in-out;
 }
 
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.buttonLink {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 20px;
+  background-color: #0087bc;
+  max-width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 24px;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: #ffffff;
+    border: 2px solid #0087bc;
+    color: #0087bc;
+  }
+}
+
 .about,
 .skills {
   background-color: rgba(255, 255, 255, 0.9);
@@ -93,7 +125,7 @@ body {
   animation: fadeIn 1s ease-in-out;
 }
 
-.skills{
+.skills {
   & li {
     list-style-type: none;
   }
@@ -122,10 +154,13 @@ body {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-
 
 /* Анимации */
 @keyframes fadeIn {

@@ -23,7 +23,7 @@ body {
 }
 
 .header-background {
-  background: url("../img/header.jpg") no-repeat center center/cover;
+  background-color: rgb(42, 42, 42);
   color: #fff;
   text-align: center;
   padding: 100px 0;
@@ -78,6 +78,37 @@ body {
 .header-background p {
   margin-bottom: 20px;
   animation: fadeIn 1s ease-in-out;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.buttonLink {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 20px;
+  background-color: #0087bc;
+  max-width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 24px;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+.buttonLink:hover {
+  background-color: #ffffff;
+  border: 2px solid #0087bc;
+  color: #0087bc;
 }
 
 .about,
