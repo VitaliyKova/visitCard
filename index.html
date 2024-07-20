@@ -4,31 +4,33 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ваше имя - Фронтенд разработчик</title>
-        <link rel="stylesheet" href="./style/styles.module.css">
+        <link rel="stylesheet" href="./style/styles.css">
     </head>
     <body>
-        <div id="spinner" class="spinner-overlay">
-            <div class="spinner"></div>
-        </div>
-        <div id="content" class="content-hidden">
+        <div id="content">
             <header class="header-background">
                 <div class="container">
-                    <div class="profile-photo">
-                        <img src="./img/637136063.jpeg" alt="Ваше фото">
-                    </div>
-                    <h1>Виталий</h1>
-                    <p>Фронтенд разработчик</p>
-                    <div class="buttons">
-                        <a href="https://t.me/VitalyStab" class="button">
-                            <img src="./img/telegram-svgrepo-com.svg" alt="">
-                        </a>
-                        <a href="https://github.com/VitaliyKova?tab=repositories" class="button">
-                            <img src="./img/github-svgrepo-com.svg" alt="">
-                        </a>
+                    <div class="upperBlock">
+                        <div>
+                            <div class="profile-photo">
+                                <img src="./img/637136063.jpeg" alt="Ваше фото">
+                            </div>
+                            <h1>Виталий</h1>
+                            <p>Фронтенд разработчик</p>
+                            <div class="buttons">
+                                <a href="https://t.me/VitalyStab" class="button">
+                                    <img src="./img/telegram-svgrepo-com.svg" alt="Telegram">
+                                </a>
+                                <a href="https://github.com/VitaliyKova?tab=repositories" class="button">
+                                    <img src="./img/github-svgrepo-com.svg" alt="GitHub">
+                                </a>
+                            </div>
+                        </div>
+                        <img class="scroll-down-arrow" src="./img/arrow-down-339-svgrepo-com.svg" alt="arrow">
                     </div>
                 </div>
             </header>
-            <section class="about">
+            <section class="about hidden">
                 <div class="container">
                     <h2>О себе</h2>
                     <div class="description">
@@ -45,7 +47,7 @@
                     </div>
                 </div>
             </section>
-            <section class="skills">
+            <section class="skills hidden">
                 <div class="container">
                     <h2>Навыки</h2>
                     <ul>
@@ -70,6 +72,6 @@
                 </div>
             </footer>
         </div>
-        <script src="./script.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
