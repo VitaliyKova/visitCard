@@ -30,7 +30,7 @@ body {
 .upperBlock {
     margin: 0 auto;
     padding: 5vh 20px 0;
-    height: 70vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
